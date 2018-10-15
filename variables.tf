@@ -5,4 +5,4 @@ variable "project" {}
 
 variable "do_api_key" {}
 
-variable "ssh_fingerprint" {}
+variable "ssh_fingerprint_example" {}
