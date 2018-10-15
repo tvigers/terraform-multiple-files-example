@@ -1,8 +1,3 @@
-resource "digitalocean_ssh_key" "example" {
-  name = "example"
-  public_key = "${file("~/.ssh/terraform_example.pub")}"
-}
-
 resource "digitalocean_droplet" "example" {
     image = "centos-7-x64"
     name = "example"
